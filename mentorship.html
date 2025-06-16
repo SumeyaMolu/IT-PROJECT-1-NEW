@@ -3,16 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mentorship Opportunities</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10;
+            padding: 10;
+        }
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #4188937a;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Main Content Styles */
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        .left-section {
+            width: 60%;
+        }
+        .right-section {
+            width: 35%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .picture {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .story {
+            margin-top: 20px;
+            font-style: italic;
+        }
+        .mentorship-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .mentorship-list li {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about us.html">About Us</a>
-        <a href="contact us.html">Contact Us</a>
-        <a href="leadership.html">Leadership</a>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
         <a href="mentorship.html">Mentorship</a>
-        <a href="scholarship.html">Scholarship</a> 
-        </nav>
+        <a href="scholarship.html">Scholarship</a>
+        <a href="leadership.html">Leadership</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="left-section">
+            <h1>Why Mentorship Matters</h1>
+            <p>Mentorship is a powerful way to support growth, learning, and personal development.<br>
+            Through guidance, encouragement, and experience-sharing, mentors help individuals build confidence, navigate challenges, and reach their goals.<br>
+            Whether you are starting your journey or aiming higher, having a mentor can make a meaningful difference.</p>
+
+            <h2>Real Mentorship Experience</h2>
+            <img src="your-mentorship-image.jpg" alt="Mentorship Session" class="picture">
+            <p class="story">After joining a mentorship program, Aisha connected with a professional in her field. With regular support and practical advice, she gained direction and landed an internship. Mentorship gave her the clarity and motivation she needed to move forward.</p>
+        </div>
+
+        <div class="right-section">
+            <h1>Mentorship Opportunities</h1>
+            <ul class="mentorship-list">
+                <li><a href="https://example.com/mentorship1">Women in Tech Mentorship Program</a></li>
+                <li><a href="https://example.com/mentorship2">Career Guidance for Young Women</a></li>
+                <li><a href="https://example.com/mentorship3">Entrepreneurship Mentorship Circle</a></li>
+                <li><a href="https://example.com/mentorship4">Peer Mentorship & Support Network</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
