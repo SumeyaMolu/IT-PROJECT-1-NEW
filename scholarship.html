@@ -1,18 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scholarship Opportunities</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F8BBD0; /* Soft pink background */
+      color: #4A148C; /* Deep plum text */
+    }
+
+    /* Navigation Bar Styles */
+    .navbar {
+      background-color: #6A1B9A; /* Semi-dark purple */
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #FFF0F5; /* Light lavender text */
+      text-align: center;
+      padding: 18px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #BA68C8; /* Medium lavender */
+      color: #FFF0F5;
+    }
+
+    /* Main Content Styles */
+    .content {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .left-section, .right-section {
+      background-color: #FFF0F5; /* Lavender blush box */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .left-section {
+      width: 40%;
+    }
+
+    .right-section {
+      width: 60%;
+    }
+
+    h1, h2 {
+      color: #4A148C; /* Dark plum headings */
+    }
+
+    .picture {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #6A1B9A;
+    }
+
+    .story {
+      margin-top: 20px;
+      font-style: italic;
+      color: #333; /* Neutral for readability */
+    }
+
+    .scholarship-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .scholarship-list li {
+      margin: 10px 0;
+    }
+
+    .scholarship-list a {
+      color: #6A1B9A; /* Semi-dark purple links */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .scholarship-list a:hover {
+      color: #BA68C8; /* Lavender on hover */
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about us.html">About Us</a>
-        <a href="contact us.html">Contact Us</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="mentorship.html">Mentorship</a>
-        <a href="scholarship.html">Scholarship</a> 
-        </nav>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="mentorship.html">Mentorship</a>
+    <a href="scholarship.html">Scholarship</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div class="left-section">
+      <h1>Scholarships for Women</h1>
+      <p>
+        Scholarships can open doors to educational and professional growth.<br>
+        They help eliminate financial barriers, making it possible for deserving students to pursue their dreams.<br>
+        Whether it's tuition, living expenses, or study resources, scholarships ease the burden and create pathways to success.<br>
+        Take a step toward your future by exploring and applying for available opportunities.
+      </p>
+
+      <h2>Success Story</h2>
+      <img src="your-scholarship-image.jpg" alt="Student Receiving Scholarship" class="picture">
+      <p class="story">
+        Fatima, a bright student from a remote area, secured a full scholarship to study computer science.
+        Today, she mentors other girls in her community and works at a top tech company.
+        Her journey shows that with support, dreams are truly achievable.
+      </p>
+    </div>
+
+    <div class="right-section">
+      <h1>Available Scholarships</h1>
+      <ul class="scholarship-list">
+        <li><a href="https://example.com/scholarship1">Undergraduate Women in Tech Scholarship</a></li>
+        <li><a href="https://example.com/scholarship2">STEM Excellence Grant for Girls</a></li>
+        <li><a href="https://example.com/scholarship3">Community Leaders Academic Fund</a></li>
+        <li><a href="https://example.com/scholarship4">International Education Support Scholarship</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
