@@ -1,65 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-<style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      margin: 0;
-      padding: 0;
-      background-color: #F8BBD0; /* Soft pink background */
-      color: #4A148C; /* Deep plum text */
-    }
-
-    /* Navigation Bar Styles */
-    .navbar {
-      background-color: #6A1B9A; /* Semi-dark purple */
-      overflow: hidden;
-    }
-
-    .navbar a {
-      float: left;
-      display: block;
-      color: #FFF0F5; /* Light lavender text */
-      text-align: center;
-      padding: 18px 20px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .navbar a:hover {
-      background-color: #BA68C8; /* Medium lavender */
-      color: #FFF0F5;
-    }
-
-    /* Main Content Styles */
-    .content {
-      display: flex;
-      padding: 20px;
-      gap: 20px;
-    }
-
-    h{
-      color: #4A148C; /* Dark plum headings */
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about us.html">About Us</a>
-        <a href="mentorship.html">Mentorship</a>
-        <a href="scholarship.html">Scholarship</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="contact us.html">Contact Us</a>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about us.html">About Us</a>
+    <a href="mentorship.html">Mentorship</a>
+    <a href="scholarship.html">Scholarship</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="contact us.html">Contact Us</a>
+  </div>
 
+  <!-- Main Content -->
+  <div class="content">
+    <div class="left-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or suggestions? We'd love to hear from you! Use the form to get in touch with our team.</p>
     </div>
 
-    <!-- Main Content -->
+    <div class="right-section">
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required><br /><br />
+
+        <label for="message">Your Message:</label><br />
+        <textarea id="message" name="message" rows="6" required></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
 
 </body>
 </html>
