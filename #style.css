@@ -1,89 +1,87 @@
-<style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      margin: 0;
-      padding: 0;
-      background-color: #F8BBD0; /* Soft pink background */
-      color: #4A148C; /* Deep plum text */
-    }
-
-    /* Navigation Bar Styles */
-    .navbar {
-      background-color: #6A1B9A; /* Semi-dark purple */
-      overflow: hidden;
-    }
-
-    .navbar a {
-      float: left;
-      display: block;
-      color: #FFF0F5; /* Light lavender text */
-      text-align: center;
-      padding: 18px 20px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .navbar a:hover {
-      background-color: #BA68C8; /* Medium lavender */
-      color: #FFF0F5;
-    }
-
-    /* Main Content Styles */
-    .content {
-      display: flex;
-      padding: 20px;
-      gap: 20px;
-    }
-
-    .left-section, .right-section {
-      background-color: #FFF0F5; /* Lavender blush box */
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .left-section {
-      width: 40%;
-    }
-
-    .right-section {
-      width: 60%;
-    }
-
-    h1, h2 {
-      color: #4A148C; /* Dark plum headings */
-    }
-
-    .picture {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-      border-radius: 8px;
-      border: 2px solid #6A1B9A;
-    }
-
-    .story {
-      margin-top: 20px;
-      font-style: italic;
-      color: #333; /* Neutral for readability */
-    }
-
-    .scholarship-list {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .scholarship-list li {
-      margin: 10px 0;
-    }
-
-    .scholarship-list a {
-      color: #6A1B9A; /* Semi-dark purple links */
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .scholarship-list a:hover {
-      color: #BA68C8; /* Lavender on hover */
-      text-decoration: underline;
-    }
-  </style>
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8BBD0;
+    color: #4A148C;
+  }
+  
+  .navbar {
+    background-color: #6A1B9A;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FFF0F5;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #BA68C8;
+    color: #FFF0F5;
+  }
+  
+  .content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .left-section,
+  .right-section {
+    background-color: #FFF0F5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .left-section {
+    width: 40%;
+  }
+  
+  .right-section {
+    width: 60%;
+  }
+  
+  h1, h2 {
+    color: #4A148C;
+  }
+  
+  .picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #6A1B9A;
+  }
+  
+  .story {
+    margin-top: 20px;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .scholarship-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scholarship-list li {
+    margin: 10px 0;
+  }
+  
+  .scholarship-list a {
+    color: #6A1B9A;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .scholarship-list a:hover {
+    color: #BA68C8;
+    text-decoration: underline;
+  }
+  
